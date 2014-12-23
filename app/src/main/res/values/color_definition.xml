@@ -2,7 +2,7 @@
 <resources>
     <!--BACKGROUNDS-->
     <color name="white_backgroud">#f2f2f2</color>
-    <color name="blue_primary_backgroud">#O173D1</color>
+    <color name="blue_primary_backgroud">#2276d4</color>
 
     <!--TEXT COLORS-->
     <color name="gray_text_color">#636363</color>

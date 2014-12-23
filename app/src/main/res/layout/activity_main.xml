@@ -1,7 +1,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
     android:orientation="vertical">
 
     <FrameLayout
@@ -42,7 +44,6 @@
                     android:id="@android:id/tabs"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:touchscreenBlocksFocus="false"
                     android:background="#ff2276d4"
                     android:focusable="false">
 
@@ -54,7 +55,7 @@
                     android:layout_height="fill_parent">
 
                     <LinearLayout
-                        android:id="@+id/iniciar sesion"
+                        android:id="@+id/iniciar_sesion"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:orientation="vertical">
@@ -70,7 +71,7 @@
                         <EditText
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:id="@+id/editText"
+                            android:id="@+id/TextIdentification"
                             android:textSize="18dp"
                             android:hint="Identificacion"
                             android:layout_marginLeft="16dp"
@@ -85,9 +86,10 @@
                             android:textSize="14dp"
                             android:layout_marginLeft="16dp"
                             android:layout_marginBottom="16dp"
-                            android:id="@+id/checkBox" />
+                            android:id="@+id/CheckBoxChanePassword" />
                         
                         <Button
+                            android:id="@+id/ButtonLogIn"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="LOG IN"
@@ -98,6 +100,7 @@
                             android:background="@color/blue_button_primary_backgroud"/>
 
                         <Button
+                            android:id="@+id/ButtonForgetKey"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="¿OLVIDÉ MI CONTRASEÑA?"
@@ -108,6 +111,7 @@
                             android:background="@color/blue_button_primary_backgroud"/>
 
                         <Button
+                            android:id="@+id/ButtonRegister"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="AFILIESE"
@@ -116,18 +120,26 @@
                             android:layout_marginRight="16dp"
                             android:layout_marginLeft="16dp"
                             android:background="@color/blue_button_primary_backgroud"/>
-
-
                     </LinearLayout>
 
+
+
                     <LinearLayout
-                        android:id="@+id/tipo cambio"
+                        android:id="@+id/tipo_cambio"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:orientation="vertical">
 
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="IDENTIFICACION"
+                            android:layout_margin="16dp"
+                            android:textColor="@color/blue_text_color"
+                            android:textSize="20dp"/>
 
-                        </LinearLayout>
+                    </LinearLayout>
+
 
                 </FrameLayout>
             </LinearLayout>
