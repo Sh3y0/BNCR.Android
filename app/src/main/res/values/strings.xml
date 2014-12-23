@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+
     <string name="app_name">BNCR.Android</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_start">StartActivity</string>
+    <string name="main_identification">IDENTIFICACIÓN:</string>
+    <string name="main_identification_hint">Identificación</string>
+    <string name="main_change_key">Cambiar Clave</string>
+    <string name="main_login">LOG IN</string>
+    <string name="main_forgot_pass">¿OLVIDÉ MI CONTRASEÑA?</string>
+    <string name="main_register">AFILIESE</string>
+        
+    <!--StartActivity-->
+    <string name="title_activity_start">BNCR</string>
+    <string name="start_section_start">INICIO</string>
+    <string name="start_section_services">SERVICIOS</string>
+    <string name="start_alerts">Alertas</string>
+    <string name="start_promoution">Promociones</string>
+    <string name="start_notifications">Notificaciones</string>
+    <string name="start_query">Consultas</string>
+    <string name="start_chart">Gráficas</string>
+    <string name="start_credit_cart">Tarjetas de Crédito</string>
+    <string name="start_payment">Préstamos</string>
+    <string name="start_favorites">Pago Favoritos</string>
+
 
 </resources>
