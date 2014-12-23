@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--BACKGROUNDS-->
+    <color name="white_backgroud">#f2f2f2</color>
+    <color name="blue_primary_backgroud">#O173D1</color>
+
+    <!--TEXT COLORS-->
+    <color name="gray_text_color">#636363</color>
+    <color name="red_text_color">#E13535</color>
+    <color name="green_text_color">#6F9604</color>
+    <color name="blue_text_color">#0179DD</color>
+
+    <!--CONTROL PRIMARY BACKGROUNDS-->
+    <color name="blue_button_primary_backgroud">#0179DD</color>
+
+    <!--CONTROL SECONDARY BACKGROUNDS-->
+    <color name="blue_button_secondary_backgroud">#0099CC</color>
+    <color name="yellow_tab">#DCD613</color>
+</resources>
