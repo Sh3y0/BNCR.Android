@@ -29,6 +29,21 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="48dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/_ico_start_alert"
+                />
+            </LinearLayout>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

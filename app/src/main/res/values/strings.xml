@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-
     <string name="app_name">BNCR.Android</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -11,8 +10,8 @@
     <string name="main_login">LOG IN</string>
     <string name="main_forgot_pass">¿OLVIDÉ MI CONTRASEÑA?</string>
     <string name="main_register">AFILIESE</string>
-        
-    <!--StartActivity-->
+
+    <!-- StartActivity -->
     <string name="title_activity_start">BNCR</string>
     <string name="start_section_start">INICIO</string>
     <string name="start_section_services">SERVICIOS</string>
@@ -25,5 +24,18 @@
     <string name="start_payment">Préstamos</string>
     <string name="start_favorites">Pago Favoritos</string>
 
+    <!-- ChangePasswordActivity -->
+    <string name="title_activity_change_password">Inicio</string>
+    <string name="change_password_subtitle">CAMBIO DE CLAVE</string>
+    <string name="change_password_user_name">Nombre de Usuario</string>
+    <string name="change_password_actual_key">Clave Actual:</string>
+    <string name="change_password_hit_actual_key">Igrese clave actual</string>
+    <string name="change_pasword_legend_one">Debe de tener como mínimo 2 caracteres alfabéticos y 4 caracteres numéricos.</string>
+    <string name="change_password_new_key">Nueva Clave:</string>
+    <string name="change_password_hit_new_key">Ingrese nueva clave</string>
+    <string name="change_password_confirm">Confirmar:</string>
+    <string name="change_password_hit_confirm">Confirmar clave</string>
+    <string name="change_password_legend_twoo">La calve tiene una vigencia de 90 días.</string>
+    <string name="change_password_accept">ACEPTAR</string>
 
 </resources>
